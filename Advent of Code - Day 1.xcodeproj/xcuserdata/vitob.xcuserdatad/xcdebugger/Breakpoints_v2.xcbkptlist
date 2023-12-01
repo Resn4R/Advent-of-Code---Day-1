@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "507080EB-8DEC-41AA-B4CD-A519665915DE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23F99890-3C65-409C-BDAF-D3F5F4484B23"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advent of Code - Day 1/CalibrationDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "convertRawDataToValues(rawData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "23F99890-3C65-409C-BDAF-D3F5F4484B23 - 2a3a7c5539715ac9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Advent_of_Code___Day_1.CalibrationDocument.convertRawDataToValues(rawData: Swift.String) -&gt; ()"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "23F99890-3C65-409C-BDAF-D3F5F4484B23 - 66afdeffe5e1d7d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Substring) -&gt; Swift.String in Advent_of_Code___Day_1.CalibrationDocument.convertRawDataToValues(rawData: Swift.String) -&gt; ()"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "23F99890-3C65-409C-BDAF-D3F5F4484B23 - d5b1d5dcfeec970e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Character) -&gt; Swift.String in Advent_of_Code___Day_1.CalibrationDocument.convertRawDataToValues(rawData: Swift.String) -&gt; ()"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4527820-FCBF-41ED-927C-54C069224B21"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advent of Code - Day 1/CalibrationDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getCalibrationValue(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4527820-FCBF-41ED-927C-54C069224B21 - e898fe56c9c77723"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Advent_of_Code___Day_1.CalibrationDocument.getCalibrationValue(from: Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "C4527820-FCBF-41ED-927C-54C069224B21 - e898fe56c9c77765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Advent_of_Code___Day_1.CalibrationDocument.getCalibrationValue(from: Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47199EEB-4C1B-434C-9D2A-26E74FC26B00"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advent of Code - Day 1/CalibrationDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getCalibrationValue(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "47199EEB-4C1B-434C-9D2A-26E74FC26B00 - e898fe56c9c77765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Advent_of_Code___Day_1.CalibrationDocument.getCalibrationValue(from: Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "47199EEB-4C1B-434C-9D2A-26E74FC26B00 - 7ae9da46a916f723"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in Advent_of_Code___Day_1.CalibrationDocument.getCalibrationValue(from: Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "47199EEB-4C1B-434C-9D2A-26E74FC26B00 - e898fe56c9c776a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Advent_of_Code___Day_1.CalibrationDocument.getCalibrationValue(from: Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "47199EEB-4C1B-434C-9D2A-26E74FC26B00 - 7ae9da46a916f6e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in Advent_of_Code___Day_1.CalibrationDocument.getCalibrationValue(from: Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8E6CF43-48F7-4C10-A543-9C5E456EEC58"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advent of Code - Day 1/CalibrationDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getCalibrationValue(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A8E6CF43-48F7-4C10-A543-9C5E456EEC58 - 7ae9da46a916f6c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in Advent_of_Code___Day_1.CalibrationDocument.getCalibrationValue(from: Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "A8E6CF43-48F7-4C10-A543-9C5E456EEC58 - 7ae9da46a916f68e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in Advent_of_Code___Day_1.CalibrationDocument.getCalibrationValue(from: Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "234CD249-82E4-41D6-93FE-3E8A52685A84"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advent of Code - Day 1/CalibrationDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getCalibrationValue(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "234CD249-82E4-41D6-93FE-3E8A52685A84 - e898fe56c9c776c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Advent_of_Code___Day_1.CalibrationDocument.getCalibrationValue(from: Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "234CD249-82E4-41D6-93FE-3E8A52685A84 - e898fe56c9c7760a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Advent_of_Code___Day_1.CalibrationDocument.getCalibrationValue(from: Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E06BA95E-2CFB-4175-B1EB-7333616D142E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advent of Code - Day 1/CalibrationDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "convertValue(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E06BA95E-2CFB-4175-B1EB-7333616D142E - c560bcf3487c7334"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Advent_of_Code___Day_1.CalibrationDocument.convertValue(Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "E06BA95E-2CFB-4175-B1EB-7333616D142E - 55027b6132955b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Character) -&gt; Swift.Bool in Advent_of_Code___Day_1.CalibrationDocument.convertValue(Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "E06BA95E-2CFB-4175-B1EB-7333616D142E - 910fb1cae519a7a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Character) -&gt; Swift.Optional&lt;Swift.String&gt; in Advent_of_Code___Day_1.CalibrationDocument.convertValue(Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52D92980-752B-44D9-9D52-3B6ECB349107"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advent of Code - Day 1/CalibrationDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "convertValue(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "52D92980-752B-44D9-9D52-3B6ECB349107 - c560bcf3487c73d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Advent_of_Code___Day_1.CalibrationDocument.convertValue(Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "52D92980-752B-44D9-9D52-3B6ECB349107 - fef7da4f484a0d5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Character) -&gt; Swift.Bool in Advent_of_Code___Day_1.CalibrationDocument.convertValue(Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "52D92980-752B-44D9-9D52-3B6ECB349107 - ab621d4011b0f345"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Character) -&gt; Swift.Optional&lt;Swift.String&gt; in Advent_of_Code___Day_1.CalibrationDocument.convertValue(Swift.String) -&gt; Swift.Int"
+                  moduleName = "Advent of Code - Day 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/Advent%20of%20Code%20-%20Day%201/Advent%20of%20Code%20-%20Day%201/CalibrationDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5073412-756A-4D78-B5FF-AB9F41735E02"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advent of Code - Day 1/CalibrationDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "convertValue(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
