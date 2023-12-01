@@ -12,4 +12,14 @@ final class AdventOfCodeTests: XCTestCase {
         
         XCTAssertEqual(document.getCalibrationValue(input), result)
     }
+    
+    func testGivenInputOneDigitShouldReturnDigitTwice() {
+        let input = "nsodkn5pdksn"
+        let document = CalibrationDocument()
+        
+        let result = 55
+        
+        XCTAssertEqual(document.getCalibrationValue(input), result
+        )
+    }
 }
