@@ -8,8 +8,9 @@ final class AdventOfCodeTests: XCTestCase {
         let input = "6798seven"
         var document = CalibrationDocument()
         
-        let result = 68
+        let result = 67
         
+        //XCTAssertEqual(document.getCalibrationValue(from: input), result)
         XCTAssertEqual(document.getCalibrationValue(from: input), result)
     }
     
@@ -26,7 +27,7 @@ final class AdventOfCodeTests: XCTestCase {
     func testGivenMultiLineShouldReturnResult() {
         var doc = CalibrationDocument()
         let rawData = """
-        jhgdbfvsnk50
+        fivejhgdbfvsnk0
         53gfssf40
         """
         
@@ -35,11 +36,28 @@ final class AdventOfCodeTests: XCTestCase {
         XCTAssertEqual(doc.getCalibrationValue(from: rawData), result)
     }
     
+    func testGivenManyLinesShouldReturnResult() {
+        var doc = CalibrationDocument()
+        let rawData = """
+                6798seven
+                six8b32csscsdgjsevenfivedlhzhc
+                fcvvkvjjnhfivesixfiveninesxlvnhfckc54
+                feightwo4twofivefour
+        """
+        
+        let result = 67+65+54+84
+        
+        XCTAssertEqual(doc.getCalibrationValue(from: rawData), result)
+    }
+    
     func testGivenRawDataShouldReturnKataResult() {
         var document = CalibrationDocument()
         let result = 54239
         
-        let rawData = """
+        XCTAssertEqual(document.getCalibrationValue(from: AdventOfCodeTests.rawData), result)
+    }
+    
+    static let rawData = """
         6798seven
         six8b32csscsdgjsevenfivedlhzhc
         fcvvkvjjnhfivesixfiveninesxlvnhfckc54
@@ -1041,7 +1059,4 @@ final class AdventOfCodeTests: XCTestCase {
         j47three8sevenfivenfkd
         twotwo4seven1fqklblqbdxcmtch
         """
-        
-        XCTAssertEqual(document.getCalibrationValue(from: rawData), result)
-    }
 }

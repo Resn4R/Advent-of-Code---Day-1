@@ -9,8 +9,23 @@ import Foundation
 
 struct CalibrationDocument {
     
-    var values: Set<String> = []
+
+    static let spelledOutNumbers = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
     
+    static let conversionTable = [
+        "one":"o1ne",
+        "two":"t2wo",
+        "three":"th3ree",
+        "four":"fo4ur",
+        "five":"fi5ve",
+        "six":"si6x",
+        "seven":"se7en",
+        "eight":"eig8ht",
+        "nine":"ni9ne"
+    ]
+    
+    var values: [String] = []
+
     private func convertValue(_ input: String) -> Int {
         let first = input.filter{ $0.isNumber }.first.flatMap{ String($0) }
         let last = input.filter{ $0.isNumber }.last.flatMap{ String($0) }
@@ -21,22 +36,28 @@ struct CalibrationDocument {
         return Int(first+last) ?? -1
     }
     
-    private mutating func convertRawDataToValues(rawData: String) {
-        values = Set(rawData.components(separatedBy: "\n"))
+    private mutating func convertRawDataToStrings(from rawData: String) {
+        values = rawData.components(separatedBy: .newlines)
+    }
+    
+    private mutating func convert(string value: String, Todigit number: String) -> String {
+        value.replacingOccurrences(of: number, with: Self.conversionTable[number]!)
     }
     
     mutating func getCalibrationValue(from rawData: String) -> Int {
-        
         var sum = 0
+        convertRawDataToStrings(from: rawData)
         
-        guard rawData.contains("\n") else { return convertValue(rawData) }
-        
-        convertRawDataToValues(rawData: rawData)
-        
-        values.forEach { value in
-            sum += convertValue(value)
+        for i in 0..<values.count {
+            
+            Self.spelledOutNumbers.forEach { number in
+                if values[i].contains(number) {
+                    values[i] = convert(string: values[i], Todigit: number)
+                }
+            }
+
+            sum += convertValue(values[i])
         }
         return sum
     }
-    
 }
