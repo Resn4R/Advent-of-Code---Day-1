@@ -52,7 +52,7 @@ final class AdventOfCodeTests: XCTestCase {
     
     func testGivenRawDataShouldReturnKataResult() {
         var document = CalibrationDocument()
-        let result = 54239
+        let result = 55343
         
         XCTAssertEqual(document.getCalibrationValue(from: AdventOfCodeTests.rawData), result)
     }
